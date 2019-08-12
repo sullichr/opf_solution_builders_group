@@ -3,13 +3,11 @@ OpenPOWER Foundation Solution Builders Group Data
 
 
 Hardware Reference Architecture
-
     Deployment of new hardware
         Racking Machine
         Power Requirement
         Network
         OpemBMC / IPMI
-
     Install of Operating system
         Redhat / CentOS
             Versions of OS to install
@@ -24,7 +22,6 @@ Hardware Reference Architecture
                 MD
 
 Software
-
     Available Binaries
     How to compile new tools
         Optimization of tools
