@@ -1,19 +1,17 @@
 # OpenPOWER Foundation Solution Builders Group Data
-
 This is a section dedicated to discussion about best practices around hardware configurations.
 Hardware Reference Architecture.
 
 ## Hardware Reference Architecture
-
 These instructions will get you up and running on your Power9 PPC64LE machine for development and testing purposes. 
 
 ### Prerequisites
-The only prerequisite is you have Power9 PPC64LE hardware.
+The only prerequisite is you have Power9 PPC64LE hardware like the following:
 ```
 AC922
 ```
 
-
+### List of Hardware Related Items
 * [Deployment of new hardware](https://github.com/sullichr/opf_solution_builders_group/blob/master/hardware_information/Deployment-of-new-hardware.md)
     * [Racking Machine](https://github.com/sullichr/opf_solution_builders_group/blob/master/hardware_information/Deployment-of-new-hardware.md#racking-machine)
         * [Power Requirement](https://github.com/sullichr/opf_solution_builders_group/blob/master/hardware_information/Deployment-of-new-hardware.md#racking-machine)
@@ -32,16 +30,16 @@ AC922
             * [MD](https://github.com/sullichr/opf_solution_builders_group/blob/master/hardware_information/Install-of-operating-system.md)
             * [ZFS](https://github.com/sullichr/opf_solution_builders_group/blob/master/hardware_information/Install-of-operating-system.md)
 
-## Installing Software
 
+## Installing Software
 A step by step series of examples that tell you how to get a development env running
 
 ### Prerequisites
-The only prerequisite is you have Power9 PPC64LE hardware.
+The only prerequisite is you have Power9 PPC64LE hardware:
 ```
 PPC64LE Machine
 ```
-
+### List of Software Related Items
 * [Available Binaries](https://github.com/sullichr/opf_solution_builders_group/blob/master/software_information/Available_Binaries.md)
 * [How to compile new tools](https://github.com/sullichr/opf_solution_builders_group/blob/master/software_information/)
     * [Optimization of tools](https://github.com/sullichr/opf_solution_builders_group/blob/master/software_information/)
