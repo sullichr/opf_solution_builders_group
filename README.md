@@ -14,23 +14,23 @@ AC922
 ```
 
 
-* Deployment of new hardware
-    * Racking Machine
-        * Power Requirement
-        * Network
-        * OpemBMC / IPMI
-* Install of Operating system
-    * Redhat / CentOS
-        * Versions of OS to install
-        * Install on NVMe
-        * RAID Setup
-            * MD
-    * Ubuntu
-        * Versions of OS to install
-        * Install on NVMe
-        * RAID Setup
-            * MD
-            * ZFS
+* [Deployment of new hardware](hardware_information/Deployment-of-new-hardware.md)
+    * [Racking Machine](hardware_information/Deployment-of-new-hardware.md#racking-machine)
+        * [Power Requirement](hardware_information/Deployment-of-new-hardware.md#racking-machine)
+        * [Network](hardware_information/Deployment-of-new-hardware.md#racking-machine)
+        * [OpemBMC / IPMI](hardware_information/Deployment-of-new-hardware.md#racking-machine)
+* [Install of Operating system](hardware_information/Install-of-operating-system.md)
+    * [Redhat / CentOS](hardware_information/Install-of-operating-system.md)
+        * [Versions of OS to install](hardware_information/Install-of-operating-system.md)
+        * [Install on NVMe](hardware_information/Install-of-operating-system.md)
+        * [RAID Setup](hardware_information/Install-of-operating-system.md)
+            * [MD](hardware_information/Install-of-operating-system.md)
+    * [Ubuntu](hardware_information/Install-of-operating-system.md)
+        * [Versions of OS to install](hardware_information/Install-of-operating-system.md)
+        * [Install on NVMe](hardware_information/Install-of-operating-system.md)
+        * [RAID Setup](hardware_information/Install-of-operating-system.md)
+            * [MD](hardware_information/Install-of-operating-system.md)
+            * [ZFS](hardware_information/Install-of-operating-system.md)
 
 ## Installing Software
 
@@ -42,24 +42,24 @@ The only prerequisite is you have Power9 PPC64LE hardware.
 PPC64LE Machine
 ```
 
-* Available Binaries
-* How to compile new tools
-    * Optimization of tools
-* Install Scripts Available
-* Install of GPU Software
-    * CUDA
-    * OpenCV
-    * Tensorflow / Keras
-    * Caffe
-    * PyTorch
-* Install Tools for FPGA
-    * Deeds..?
-    * others...
-* Build HPC cluster
-    * SLURM
-    * SGE
-* Build Cloud environment
-    * Openstack
+* [Available Binaries](software_information/Available_Binaries.md)
+* [How to compile new tools](software_information/)
+    * [Optimization of tools](software_information/)
+* [Install Scripts Available](software_information/)
+* [Install of GPU Software](software_information/)
+    * [CUDA](software_information/)
+    * [OpenCV](software_information/)
+    * [Tensorflow / Keras](software_information/)
+    * [Caffe](software_information/)
+    * [PyTorch](software_information/)
+* [Install Tools for FPGA](software_information/)
+    * [Deeds..?](software_information/)
+    * [others...](software_information/)
+* [Build HPC cluster](software_information/)
+    * [SLURM](software_information/)
+    * [SGE](software_information/)
+* [Build Cloud environment](software_information/)
+    * [Openstack](software_information/)
 
 
 
