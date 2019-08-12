@@ -3,6 +3,7 @@ OpenPOWER Foundation Solution Builders Group Data
 
 
 Hardware Reference Architecture
+
     Deployment of new hardware
         Racking Machine
         Power Requirement
@@ -22,6 +23,7 @@ Hardware Reference Architecture
                 MD
 
 Software
+
     Available Binaries
     How to compile new tools
         Optimization of tools
