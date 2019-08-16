@@ -28,8 +28,7 @@ The AC922 has a 1 Gigabit ethernet port onboard, this interface is available
 to the BMC for remote management.
 
 See [OpemBMC / IPMI](https://github.com/sullichr/opf_solution_builders_group/blob/master/hardware_information/Deployment-of-new-
-hardware.md#racking-machine) for more
-information.
+hardware.md#racking-machine) for more information.
 
 ## OpenBMC/IPMI
 
