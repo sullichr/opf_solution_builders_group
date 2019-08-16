@@ -25,11 +25,22 @@ degraded if one power supply is offline, especially in 6 GPU configurations.
 ## Networking
 
 The AC922 has a 1 Gigabit ethernet port onboard, this interface is available
-to the BMC for remote management.
+to the BMC for remote management. The BMC will be available on this interface
+any time the machine is connected to power, even if the system is powered off,
+or if no operating system is boot or present.
 
-See [OpemBMC / IPMI](https://github.com/sullichr/opf_solution_builders_group/blob/master/hardware_information/Deployment-of-new-
-hardware.md#racking-machine) for more information.
+A dedicated management subnet is recommended to isolate the BMC from the
+general use network.
 
 ## OpenBMC/IPMI
 
-The AC922 is managed by an onboard control module.
+The AC922 is managed by a Baseboard Management Controller, or BMC.
+
+This controller is essentially a self-contained computer running linux, from
+which the system's hardware can be managed.
+
+See
+
+https://www.ibm.com/support/knowledgecenter/en/POWER9/p9eih/p9eih_openbmc_kickoff.htm
+
+for detailed information about usign the BMC.
