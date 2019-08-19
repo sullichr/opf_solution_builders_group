@@ -32,7 +32,6 @@ AC922
             * [ZFS](https://github.com/sullichr/opf_solution_builders_group/blob/master/hardware_information/installing_ubuntu.md#zfs)
 
 
-
 ## Installing Software
 A step by step series of examples that tell you how to get a development env running
 
