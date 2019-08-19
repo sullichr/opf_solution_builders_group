@@ -1,7 +1,7 @@
 # GPU pass-through for PPC64le VMs
 
 This guide provides instructions for running KVM virtual machines on a Power9
-system with GPU passthrough. The result will be vone or more virtual machines
+system with GPU passthrough. The result will be one or more virtual machines
 that each have access to one or more GPU devices on the host.
 
 This procedure was carried out on a Centos 7.5 system with kernel 4.14.0
