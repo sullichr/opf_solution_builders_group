@@ -17,11 +17,11 @@ AC922
     * [Racking Machine](https://github.com/sullichr/opf_solution_builders_group/blob/master/hardware_information/Deployment-of-new-hardware.md#racking-machine)
         * [Power Requirement](https://github.com/sullichr/opf_solution_builders_group/blob/master/hardware_information/Deployment-of-new-hardware.md#power-requirements)
         * [Network](https://github.com/sullichr/opf_solution_builders_group/blob/master/hardware_information/Deployment-of-new-hardware.md#networking)
-        * [OpemBMC / IPMI](https://github.com/sullichr/opf_solution_builders_group/blob/master/hardware_information/Deployment-of-new-hardware.md#openbmcipmi)
+        * [OpemBMC / IPMI](https://github.com/sullichr/opf_solution_builders_group/blob/master/hardware_information/Deployment-of-new-hardware.md#openbmc_and_ipmi)
 * [Install of Operating system](https://github.com/sullichr/opf_solution_builders_group/blob/master/hardware_information/Install-of-operating-system.md)
     * [Redhat / CentOS](https://github.com/sullichr/opf_solution_builders_group/blob/master/hardware_information/installing_rhel_centos.md)
         * [Versions of OS to install](https://github.com/sullichr/opf_solution_builders_group/blob/master/hardware_information/installing_rhel_centos.md#versions)
-        * [Install on NVMe](https://github.com/sullichr/opf_solution_builders_group/blob/master/hardware_information/installing_rhel_centos.mdInstall-of-operating-system.md#install-on-nvme)
+        * [Install on NVMe](https://github.com/sullichr/opf_solution_builders_group/blob/master/hardware_information/installing_rhel_centos.md#install-on-nvme)
         * [RAID Setup](https://github.com/sullichr/opf_solution_builders_group/blob/master/hardware_information/installing_rhel_centos.md#raid-setup)
             * [MD](https://github.com/sullichr/opf_solution_builders_group/blob/master/hardware_information/installing_rhel_centos.md#md)
     * [Ubuntu](https://github.com/sullichr/opf_solution_builders_group/blob/master/hardware_information/installing_ubuntu.md)
@@ -30,7 +30,6 @@ AC922
         * [RAID Setup](https://github.com/sullichr/opf_solution_builders_group/blob/master/hardware_information/installing_ubuntu.md#raid-setup)
             * [MD](https://github.com/sullichr/opf_solution_builders_group/blob/master/hardware_information/installing_ubuntu.md#md)
             * [ZFS](https://github.com/sullichr/opf_solution_builders_group/blob/master/hardware_information/installing_ubuntu.md#zfs)
-
 
 
 ## Installing Software
