@@ -4,7 +4,7 @@ Hardware Reference Architecture.
 
 
 ## Hardware Reference Architecture
-These instructions will get you up and running on your Power9 PPC64LE machine for development and testing purposes. 
+These instructions will get you up and running on your Power9 PPC64LE machine for development and testing purposes.
 
 ### Prerequisites
 The only prerequisite is you have Power9 PPC64LE hardware like the following:
@@ -15,23 +15,21 @@ AC922
 ### List of Hardware Related Items
 * [Deployment of new hardware](https://github.com/sullichr/opf_solution_builders_group/blob/master/hardware_information/Deployment-of-new-hardware.md)
     * [Racking Machine](https://github.com/sullichr/opf_solution_builders_group/blob/master/hardware_information/Deployment-of-new-hardware.md#racking-machine)
-        * [Power Requirement](https://github.com/sullichr/opf_solution_builders_group/blob/master/hardware_information/Deployment-of-new-hardware.md#racking-machine)
-        * [Network](https://github.com/sullichr/opf_solution_builders_group/blob/master/hardware_information/Deployment-of-new-hardware.md#racking-machine)
-        * [OpemBMC / IPMI](https://github.com/sullichr/opf_solution_builders_group/blob/master/hardware_information/Deployment-of-new-hardware.md#racking-machine)
+        * [Power Requirement](https://github.com/sullichr/opf_solution_builders_group/blob/master/hardware_information/Deployment-of-new-hardware.md#power-requirements)
+        * [Network](https://github.com/sullichr/opf_solution_builders_group/blob/master/hardware_information/Deployment-of-new-hardware.md#networking)
+        * [OpemBMC / IPMI](https://github.com/sullichr/opf_solution_builders_group/blob/master/hardware_information/Deployment-of-new-hardware.md#openbmcipmi)
 * [Install of Operating system](https://github.com/sullichr/opf_solution_builders_group/blob/master/hardware_information/Install-of-operating-system.md)
-    * [Redhat / CentOS](https://github.com/sullichr/opf_solution_builders_group/blob/master/hardware_information/Install-of-operating-system.md)
-        * [Versions of OS to install](https://github.com/sullichr/opf_solution_builders_group/blob/master/hardware_information/Install-of-operating-system.md)
-        * [Install on NVMe](https://github.com/sullichr/opf_solution_builders_group/blob/master/hardware_information/Install-of-operating-system.md)
-        * [RAID Setup](https://github.com/sullichr/opf_solution_builders_group/blob/master/hardware_information/Install-of-operating-system.md)
-            * [MD](https://github.com/sullichr/opf_solution_builders_group/blob/master/hardware_information/Install-of-operating-system.md)
-    * [Ubuntu](https://github.com/sullichr/opf_solution_builders_group/blob/master/hardware_information/Install-of-operating-system.md)
-        * [Versions of OS to install](https://github.com/sullichr/opf_solution_builders_group/blob/master/hardware_information/Install-of-operating-system.md)
-        * [Install on NVMe](https://github.com/sullichr/opf_solution_builders_group/blob/master/hardware_information/Install-of-operating-system.md)
-        * [RAID Setup](https://github.com/sullichr/opf_solution_builders_group/blob/master/hardware_information/Install-of-operating-system.md)
-            * [MD](https://github.com/sullichr/opf_solution_builders_group/blob/master/hardware_information/Install-of-operating-system.md)
-            * [ZFS](https://github.com/sullichr/opf_solution_builders_group/blob/master/hardware_information/Install-of-operating-system.md)
-
-
+    * [Redhat / CentOS](https://github.com/sullichr/opf_solution_builders_group/blob/master/hardware_information/installing_rhel_centos.md)
+        * [Versions of OS to install](https://github.com/sullichr/opf_solution_builders_group/blob/master/hardware_information/installing_rhel_centos.md#versions)
+        * [Install on NVMe](https://github.com/sullichr/opf_solution_builders_group/blob/master/hardware_information/installing_rhel_centos.mdInstall-of-operating-system.md#install-on-nvme)
+        * [RAID Setup](https://github.com/sullichr/opf_solution_builders_group/blob/master/hardware_information/installing_rhel_centos.md#raid-setup)
+            * [MD](https://github.com/sullichr/opf_solution_builders_group/blob/master/hardware_information/installing_rhel_centos.md#md)
+    * [Ubuntu](https://github.com/sullichr/opf_solution_builders_group/blob/master/hardware_information/installing_ubuntu.md)
+        * [Versions of OS to install](https://github.com/sullichr/opf_solution_builders_group/blob/master/hardware_information/installing_ubuntu.md#versions)
+        * [Install on NVMe](https://github.com/sullichr/opf_solution_builders_group/blob/master/hardware_information/installing_ubuntu.md#install-on-nvme)
+        * [RAID Setup](https://github.com/sullichr/opf_solution_builders_group/blob/master/hardware_information/installing_ubuntu.md#raid-setup)
+            * [MD](https://github.com/sullichr/opf_solution_builders_group/blob/master/hardware_information/installing_ubuntu.md#md)
+            * [ZFS](https://github.com/sullichr/opf_solution_builders_group/blob/master/hardware_information/installing_ubuntu.md#zfs)
 
 
 
@@ -84,5 +82,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* Thanks to Linton Ward for all the great discussions. 
-
+* Thanks to Linton Ward for all the great discussions.
