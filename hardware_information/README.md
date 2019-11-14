@@ -1,1 +1,7 @@
-# Many times users get new hardware like an AC922 and are not sure about requirments like power around the machine. This section will help users deploy new hardware ensuring you have all the needed resources.
+# Hardware Installation
+
+This section covers basic hardware installation requirements and Operating
+System install.
+
+* [Deployment of new hardware](https://github.com/sullichr/opf_solution_builders_group/blob/master/hardware_information/Deployment-of-new-hardware.md)
+* [Install of Operating system](https://github.com/sullichr/opf_solution_builders_group/blob/master/hardware_information/Install-of-operating-system.md)
