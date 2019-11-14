@@ -20,9 +20,9 @@ ubuntu-18.04-server-ppc64el.iso
 
 To install with a USB key, insert the key into the front USB port and boot the
 machine. Allow time for the system to perform hardware intialization, after
-which you should see the OpenBMC console.
+which you should see the Petitboot console.
 
-The BMC will display a list boot options, which may be local disks if an boot
+The Petitboot will display a list boot options, which may be local disks if an boot
 partition is found on installed hard disks, network boot options, and the
 Ubuntu install USB. Use the arrow keys to select the USB disk and hit
 enter.
