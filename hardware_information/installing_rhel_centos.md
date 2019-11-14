@@ -29,9 +29,9 @@ rhel-alt-server-7.6-ppc64le-boot.iso
 
 To install with a USB key, insert the key into the front USB port and boot the
 machine. Allow time for the system to perform hardware intialization, after
-which you should see the OpenBMC console.
+which you should see the PetitBoot console.
 
-The BMC will display a list boot options, which may be local disks if an boot
+PetitBoot will display a list boot options, which may be local disks if an boot
 partition is found on installed hard disks, network boot options, and the
 Centos or RedHat install USB. Use the arrow keys to select the USB disk and hit
 enter.
@@ -44,7 +44,7 @@ software selection.
 
 ### Install on NVME
 
-If your Power9 system has NVME storage cards, these should appear as disks in
+If your Power9 system has NVME storage devices, these should appear as disks in
 the install target selection. If they do not, and your system does have NVME
 installed, see the NVME section in this documentation.
 
@@ -52,9 +52,9 @@ The operating system can be installed normally on an NVME device.
 
 ### RAID setup
 
-Linux software RAID is supported in Power9 linux. Local disks can be combined
-into a RAID at installation time, see this guide for instructions on installing
-Centos/RHEL on RAID:
+Linux software RAID is supported in Power9 Centos/RHEL linux. Local disks can
+be combined into a RAID at installation time, see this guide for instructions
+on installing Centos/RHEL on RAID:
 
 https://www.thegeekdiary.com/how-to-install-centos-rhel-7-on-raid-1-partition/
 
@@ -68,7 +68,7 @@ dracut-initqueue[779]: Warning: dracut-initqueue timeout - starting timeout scri
 
 you may need to edit the install media boot command.
 
-1. boot the system into the OpenBMC menu.
+1. boot the system into the PetitBoot menu.
 2. Select the USB boot device
 3. press 'e'
 4. Note the UUID of the install media
